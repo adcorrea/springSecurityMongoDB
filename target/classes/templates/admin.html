@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<html>
+<head>
+    <title>Spring Security 5 and MongoDB.</title>
+</head>
+<body>
+<h1>Welcome [[${#httpServletRequest.remoteUser}]]!</h1>
+<h2>You are succesfully logged as an Admin!</h2>
+<div sec:authorize="isAuthenticated()">
+    N1: This content is only shown to authenticated users.
+</div>
+<div sec:authorize="hasAnyAuthority('ADMIN')">
+    N2: This content is only shown to administrators.
+</div>
+<p>Click <a href="/allusers">here</a> to show all registered
+    users.</p>
+</br>
+<form action="/logout" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+</body>
+</html>

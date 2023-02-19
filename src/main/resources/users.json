@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "63f185b7ff920e2dc0708c46"
+  },
+  "email": "antoniopucc@hotmail.com",
+  "password": "$2a$10$XDuYhLUUihgistBAXdCtyOUWHcbcrb3CCneVypx4TXNtuj0PRS1cS",
+  "role": "ADMIN",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "63ead65509e899952243d8fd"
+      }
+    }
+  ],
+  "_class": "com.adcorreajr.springSecurityMongoDB.domain.User"
+},{
+  "_id": {
+    "$oid": "63f1873fff920e2dc0708c47"
+  },
+  "email": "admin@admin.com",
+  "password": "$2a$10$3QubabWt139SYr0Xlti2WelexfKEmgFCQJ9uqLc0BZW.etz3G0ko.",
+  "role": "ADMIN",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "63ead65509e899952243d8fd"
+      }
+    }
+  ],
+  "_class": "com.adcorreajr.springSecurityMongoDB.domain.User"
+}]

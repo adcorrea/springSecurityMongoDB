@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "63ead86009e899952243d905"
+  },
+  "email": "admin@admin.com",
+  "password": "$2a$10$qNYHb8JtRrREzSFKEwXfA.230HTujndUR0qCTPsGP8.FqWetlSqmC",
+  "role": "ADMIN",
+  "roles": [
+    {
+      "$ref": "role",
+      "$id": "63ead65509e899952243d8fd"
+    }
+  ],
+  "_class": "com.adcorreajr.springSecurityMongoDB.domain.User"
+}]

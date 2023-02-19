@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "63ead65509e899952243d8fd"
+  },
+  "role": "ADMIN",
+  "_class": "com.adcorreajr.springSecurityMongoDB.domain.Role"
+},{
+  "_id": {
+    "$oid": "63ead70d09e899952243d8fe"
+  },
+  "role": "USER",
+  "_class": "com.adcorreajr.springSecurityMongoDB.domain.Role"
+}]
